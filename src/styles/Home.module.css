@@ -1,0 +1,26 @@
+/* Custom bullets */
+.mySwiper{
+    height: 400px;
+}
+.mySwiper .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    background-color: #333;
+  }
+  
+  .mySwiper .swiper-pagination-bullet-active {
+    background-color: #ff0000;
+  }
+  
+  /* Custom arrows */
+  .mySwiper .swiper-button-next,
+  .mySwiper .swiper-button-prev {
+    color: #333;
+    font-size: 24px;
+  }
+  
+  .mySwiper .swiper-button-next:hover,
+  .mySwiper .swiper-button-prev:hover {
+    color: #ff0000;
+  }
+  
